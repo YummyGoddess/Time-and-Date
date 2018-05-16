@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <p>{{time}}</p>
+  <form action="blogs/create" method="post">
+    {% csrf_token%}
+    <label for="name">Danna's World</label>
+    <input type="text" id="name" name="name" placeholder="Danna's Wrold">
+    <label for="desc">Description:</label>
+    <textarea id="desc" name="name" placeholder="description"</textarea>
+  </form>
+</body>
+</html>
